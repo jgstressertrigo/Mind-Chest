@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 540px;
+    background-color:blueviolet;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-img{
+    width: 120px;
+    border-radius: 50%;
+    border: #34d249 5px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-65px);
+}
+
+.container-text {
+    margin-top: -40px;
+}
+
+h1.name {
+    margin: 0;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h3.desc {
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif sans-serif;
+    background: #E0FFFF;
+    height: 8vh;
+    font-family: cursive;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+a {
+    color:  rgb(0, 12, 116);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}

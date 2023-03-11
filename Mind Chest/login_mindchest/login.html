@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="login.js">
+    <link rel="shortcut icon" href="pigface.ico">
+    <title>Mind Chest</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/sobre_mindchest/sobre.html">Mind Chest</a>
+            <ul class="nav-list">
+                <li><a href="/site_mindchest/site.html">Jogar</a></li>
+                <li><a href="/sobre_mindchest/sobre.html">Sobre</a></li>
+                <li><a href="/login_mindchest/login.html">Login</a></li>
+                <li><a href="/contato_mindchest/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-login">
+        <div class="left-login">
+            <img src="logo.png" alt="logomindchest" width="50%">
+            <h1>Mind Chest</h1>
+        </div>    
+        <div class="right-login">
+            <div class="card-login">
+                <h1>ENTRAR</h1>
+                <div class="textfield">
+                    <label for="usuario" >Usuário</label>
+                    <input type="text" name="usuario"  id="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login" type="submit" id="btn" onclick="logar()">Entrar</button>
+                <p>Não possui login ?<a href="/cadastro_mindchest/cadastro.html"> Cadastre-se.</a></p>
+            </div>
+        </div>
+    </div>
+    <script>function logar(){
+        var usuario = document.getElementById('usuario').value;
+    var senha = document.getElementById('senha').value;
+    if( usuario=="admin" && senha == "admin")
+        alert('sucesso!')
+    else{
+        alert("usuario ou senha incorretos!")
+    }
+}</script>
+</body>
+</html>

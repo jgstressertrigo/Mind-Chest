@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pigface.ico">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/sobre_mindchest/sobre.html">Mind Chest</a>
+            <ul class="nav-list">
+                <li><a href="/site_mindchest/site.html">Jogar</a></li>
+                <li><a href="/sobre_mindchest/sobre.html">Sobre</a></li>
+                <li><a href="/login_mindchest/login.html">Login</a></li>
+                <li><a href="/contato_mindchest/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <img src="logo.png" alt="logomindchest" width="50%">
+            <h1>Mind Chest</h1>
+            </div>    
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <h1>CADASTRE-SE</h1>
+                <div class="textfield">
+                    <label for="usuario" >Nome</label>
+                    <input type="text" name="nome"  id="nome" placeholder="Nome completo" method="post">
+                </div>
+                <div class="textfield">
+                    <label for="email" >Email</label>
+                    <input type="text" name="email"  id="email" placeholder="E-mail" method="post">
+                </div>
+                <div class="textfield">
+                    <label for="usuario" >Usuário</label>
+                    <input type="text" name="usuario"  id="usuario" placeholder="Usuário" method="post">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" method="post">
+                </div>
+                <button class="btn-cadastro" type="submit" id="btn" onclick="logar()">Entrar</button>
+                <p>Não possui login ?<a href="/cadastro_mindchest/cadastro.html"> Cadastre-se.</a></p>
